@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class CardTests {
+class CardTests {
   @Test
   void compareLess() {
     Card card1 = new Card(FaceValue.THREE, Suite.DIAMOND);

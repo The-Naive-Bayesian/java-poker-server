@@ -1,8 +1,8 @@
 public class Card implements Comparable<Card> {
-  public final FaceValue value;
-  public final Suite suite;
+  final FaceValue value;
+  final Suite suite;
 
-  public Card(FaceValue value, Suite suite) {
+  Card(FaceValue value, Suite suite) {
     this.value = value;
     this.suite = suite;
   }

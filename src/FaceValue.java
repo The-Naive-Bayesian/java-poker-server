@@ -15,7 +15,7 @@ public enum FaceValue {
 
   public final Integer rank;
 
-  private FaceValue(Integer value) {
+  FaceValue(Integer value) {
     this.rank = value;
   }
 }
