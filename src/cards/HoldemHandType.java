@@ -1,3 +1,5 @@
+package cards;
+
 public enum HoldemHandType implements Comparable<HoldemHandType> {
   HIGH_CARD,
   PAIR,

@@ -1,9 +1,11 @@
+package cards;
+
 import java.util.ArrayList;
 
-class Deck {
+public class Deck {
   private ArrayList<Card> cards;
 
-  Deck() {
+  public Deck() {
     this.addAllCards();
     this.shuffle();
   }

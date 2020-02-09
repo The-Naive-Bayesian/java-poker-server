@@ -1,3 +1,5 @@
+package cards;
+
 import java.util.Iterator;
 
 public class HighCardHand extends HoldemHand {
@@ -31,9 +33,6 @@ public class HighCardHand extends HoldemHand {
     // Iterate through cards and return first nonzero compare result
     // If no cards left, return 0
     CardCollection otherCards = other.getCards();
-
-    cards.sort();
-    otherCards.sort();
 
     Iterator<Card> otherCardIterator = otherCards.iterator();
 

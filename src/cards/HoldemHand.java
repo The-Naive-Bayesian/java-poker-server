@@ -1,3 +1,5 @@
+package cards;
+
 abstract class HoldemHand implements Comparable<HoldemHand> {
   private HoldemHandType type;
   private CardCollection cards;

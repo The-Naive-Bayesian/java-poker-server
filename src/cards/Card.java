@@ -1,3 +1,5 @@
+package cards;
+
 public class Card implements Comparable<Card> {
   final FaceValue value;
   final Suite suite;
