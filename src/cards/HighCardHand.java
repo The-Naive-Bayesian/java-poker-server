@@ -3,11 +3,8 @@ package cards;
 import java.util.Iterator;
 
 public class HighCardHand extends HoldemHand {
-  private HoldemHandType type;
-  private CardCollection cards;
-
-  HighCardHand(HoldemHandType type, CardCollection cards) {
-    this.type = type;
+  HighCardHand(CardCollection cards) {
+    this.type = HoldemHandType.HIGH_CARD;
     this.cards = cards;
   }
 

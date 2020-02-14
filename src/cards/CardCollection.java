@@ -15,7 +15,7 @@ public class CardCollection implements Iterable<Card> {
     this.cards = cards;
   }
 
-  void add(Card card) {
+  public void add(Card card) {
     cards.add(card);
   }
 

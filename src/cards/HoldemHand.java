@@ -1,8 +1,8 @@
 package cards;
 
-abstract class HoldemHand implements Comparable<HoldemHand> {
-  private HoldemHandType type;
-  private CardCollection cards;
+public abstract class HoldemHand implements Comparable<HoldemHand> {
+  protected HoldemHandType type;
+  protected CardCollection cards;
 
   HoldemHandType getType() {
     return type;
